@@ -5,7 +5,7 @@ Website resmi **Kelompok KKN Distaradeva** Universitas Al Ghifari tahun 2025. Si
 📌 **Kunjungi website kami di sini:**  
 👉 [https://kkndistaradeva.github.io/website/](https://kkndistaradeva.github.io/website/)
 
-![Preview Website](preview.png)
+<img src="https://github.com/user-attachments/assets/af9d1b2e-be2e-41d3-b63c-b04b1f99ab9d" alt="Preview Website" width="580" />
 
 ## 🌟 Fitur Utama
 
