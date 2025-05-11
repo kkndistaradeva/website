@@ -36,7 +36,7 @@ Tim ini terdiri dari mahasiswa lintas jurusan:
 ## 📬 Kontak
 
 📧 Email: [kkndistaradeva14@gmail.com](mailto:kkndistaradeva14@gmail.com)  
-📍 Lokasi: Desa tempat pengabdian, Kabupaten Garut  
+📍 Lokasi: Desa Baros, Kec. Arjasari, Kab. Bandung, Jawa Barat 
 🔗 Media Sosial:
 - [YouTube](#)
 - [Instagram](#)
