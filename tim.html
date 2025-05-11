@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim - KKN Distaradeva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              hijautua: "#20423a",
+              krem: "#f3e9d2",
+              birulogo: "#2a5c6a",
+              emas: "#bfa14a",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="sticky top-0 bg-hijautua text-krem shadow-lg z-50">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center space-x-3">
+            <img
+              src="assets/logo.png"
+              alt="Logo KKN Distaradeva"
+              class="h-10 w-10 rounded-full border-2 border-emas bg-krem"
+            />
+            <a href="index.html" class="text-xl font-bold text-krem"
+              >Distaradeva</a
+            >
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a href="index.html" class="hover:text-emas transition duration-300"
+              >Beranda</a
+            >
+            <a
+              href="tentang.html"
+              class="hover:text-emas transition duration-300"
+              >Tentang Kami</a
+            >
+            <a
+              href="program.html"
+              class="hover:text-emas transition duration-300"
+              >Program Kerja</a
+            >
+            <a
+              href="dokumentasi.html"
+              class="hover:text-emas transition duration-300"
+              >Dokumentasi</a
+            >
+            <a href="tim.html" class="hover:text-emas transition duration-300"
+              >Tim</a
+            >
+            <a
+              href="kontak.html"
+              class="hover:text-emas transition duration-300"
+              >Kontak</a
+            >
+          </div>
+          <div class="md:hidden">
+            <button class="text-white hover:text-gold focus:outline-none">
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="bg-hijautua text-krem py-16">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl font-bold mb-8">Tim Kami</h1>
+        <div class="bg-white rounded-lg shadow-lg p-8">
+          <h2 class="text-2xl font-bold mb-4 text-hijautua">
+            Tim KKN Distaradeva
+          </h2>
+          <p class="text-gray-600 mb-6">
+            Tim KKN Distaradeva terdiri dari mahasiswa-mahasiswa Universitas Al
+            Ghifari yang berdedikasi untuk melaksanakan program pengabdian
+            masyarakat di Desa Baros, Kec. Arjasari, Kabupaten Bandung.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="container mx-auto px-4 py-16">
+      <!-- Dosen Pembimbing -->
+      <div class="mb-16">
+        <h2 class="text-3xl font-bold text-center mb-8">Dosen Pembimbing</h2>
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8">
+          <div class="flex items-center space-x-6">
+            <div class="w-32 h-32 rounded-full overflow-hidden">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Dosen Pembimbing"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-navy">
+                Dr. Achdijat Sulaiman, S.I.P., M.Si.
+              </h3>
+              <p class="text-gray-600">Dosen Pembimbing Lapangan</p>
+              <p class="text-gray-500 mt-2">Fakultas Ilmu Komputer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Struktur & Anggota Tim -->
+      <h2 class="text-3xl font-bold text-center mb-8">
+        Struktur & Anggota Tim
+      </h2>
+
+      <!-- Inti Kelompok -->
+      <h3 class="text-2xl font-bold mb-4">Inti Kelompok</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Wildan Wandira -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Wildan Wandira"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Wildan Wandira</h3>
+            <p class="text-gray-600">KETUPLAK</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Nisrina Adelya -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Nisrina Adelya"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Nisrina Adelya</h3>
+            <p class="text-gray-600">Sekretaris</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Dlva Ariyanti Saputri -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Dlva Ariyanti Saputri"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Dlva Ariyanti Saputri
+            </h3>
+            <p class="text-gray-600">Bendahara</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divisi Creative -->
+      <h3 class="text-2xl font-bold mb-4">Divisi Creative</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Nada Shelyka Nindyani -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Nada Shelyka Nindyani"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Nada Shelyka Nindyani
+            </h3>
+            <p class="text-gray-600">KOOR CREATIVE</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Ilmal Yakin N -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Ilmal Yakin N"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Ilmal Yakin N</h3>
+            <p class="text-gray-600">creative</p>
+            <p class="text-gray-500">SI</p>
+          </div>
+        </div>
+        <!-- Ahmad Manafi -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Ahmad Manafi"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Ahmad Manafi</h3>
+            <p class="text-gray-600">creative</p>
+            <p class="text-gray-500">SI</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divisi GIOPRA -->
+      <h3 class="text-2xl font-bold mb-4">Divisi GIOPRA</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Shidiq Amien -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Shidiq Amien"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Shidiq Amien</h3>
+            <p class="text-gray-600">KOOR GIOPRA</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Trilani Rizkiyanti -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Trilani Rizkiyanti"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Trilani Rizkiyanti
+            </h3>
+            <p class="text-gray-600">GIOPRA</p>
+            <p class="text-gray-500">Sasing</p>
+          </div>
+        </div>
+        <!-- Sulistina Sasa SK -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Sulistina Sasa SK"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Sulistina Sasa SK
+            </h3>
+            <p class="text-gray-600">GIOPRA</p>
+            <p class="text-gray-500">Sasing</p>
+          </div>
+        </div>
+        <!-- Nurul Paujiah -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Nurul Paujiah"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Nurul Paujiah</h3>
+            <p class="text-gray-600">GIOPRA</p>
+            <p class="text-gray-500">Farmasi</p>
+          </div>
+        </div>
+        <!-- Putri Islamy -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Putri Islamy"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Putri Islamy</h3>
+            <p class="text-gray-600">GIOPRA</p>
+            <p class="text-gray-500">TP</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divisi BINMAS -->
+      <h3 class="text-2xl font-bold mb-4">Divisi BINMAS</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Karismam Abdurrahman -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Karismam Abdurrahman"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Karismam Abdurrahman
+            </h3>
+            <p class="text-gray-600">KOOR BINMAS</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Mutia sari rahayu -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Mutia sari rahayu"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Mutia sari rahayu
+            </h3>
+            <p class="text-gray-600">BINMAS</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Bunga Shifa -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Bunga Shifa"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Bunga Shifa</h3>
+            <p class="text-gray-600">BINMAS</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Lita Sari Rahayu -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Lita Sari Rahayu"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Lita Sari Rahayu
+            </h3>
+            <p class="text-gray-600">BINMAS</p>
+            <p class="text-gray-500">HI</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divisi KONSUMSI -->
+      <h3 class="text-2xl font-bold mb-4">Divisi Konsumsi</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Rima Holifatul Umah -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Rima Holifatul Umah"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Rima Holifatul Umah
+            </h3>
+            <p class="text-gray-600">KOOR KONSUMSI</p>
+            <p class="text-gray-500">Farmasi</p>
+          </div>
+        </div>
+        <!-- Asyril Najla Annisa -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Asyril Najla Annisa"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Asyril Najla Annisa
+            </h3>
+            <p class="text-gray-600">KONSUMSI</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+        <!-- Devi Agustina -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Devi Agustina"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Devi Agustina</h3>
+            <p class="text-gray-600">KONSUMSI</p>
+            <p class="text-gray-500">TP</p>
+          </div>
+        </div>
+        <!-- Melati Nuraeni -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Melati Nuraeni"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">Melati Nuraeni</h3>
+            <p class="text-gray-600">KONSUMSI</p>
+            <p class="text-gray-500">SI</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Koordinator Lainnya -->
+      <h3 class="text-2xl font-bold mb-4">Koordinator Lainnya</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- Muhammad Aji Permana -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative pb-[100%]">
+            <img
+              src="https://via.placeholder.com/300"
+              alt="Muhammad Aji Permana"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-hijautua mb-2">
+              Muhammad Aji Permana
+            </h3>
+            <p class="text-gray-600">KOOR INVENTORY</p>
+            <p class="text-gray-500">Manajemen</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-hijautua text-krem py-8">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h4 class="text-xl font-bold mb-4">KKN Distaradeva</h4>
+            <p class="text-gray-300">
+              Tim KKN Kelompok 8 Universitas Al Ghifari (UNFARI) tahun 2025
+              dengan nama Distaradeva. Fokus pada program pengembangan
+              masyarakat, edukasi, dan lingkungan di wilayah pengabdian.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold mb-4">Kontak</h4>
+            <p class="text-gray-300">Email: kkndistaradeva14@gmail.com</p>
+          </div>
+          <div>
+            <h4 class="text-xl font-bold mb-4">Media Sosial</h4>
+            <div class="flex flex-col space-y-2">
+              <a
+                href="https://www.youtube.com/@KKNDISTARADEVA"
+                target="_blank"
+                class="text-gray-300 hover:text-gold"
+                >YouTube</a
+              >
+              <a
+                href="https://www.instagram.com/Kkn_distaradeva14"
+                target="_blank"
+                class="text-gray-300 hover:text-gold"
+                >Instagram</a
+              >
+              <a
+                href="https://www.tiktok.com/@kkn.14.dista.rade"
+                target="_blank"
+                class="text-gray-300 hover:text-gold"
+                >TikTok</a
+              >
+              <a
+                href="https://www.linkedin.com/company/kkn-distaradeva"
+                target="_blank"
+                class="text-gray-300 hover:text-gold"
+                >LinkedIn</a
+              >
+              <a
+                href="https://github.com/kkndistaradeva"
+                target="_blank"
+                class="text-gray-300 hover:text-gold"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-emas mt-8 pt-8 text-center">
+          <p class="text-gray-300">
+            &copy; 2025 KKN Distaradeva. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
